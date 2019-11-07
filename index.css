@@ -229,3 +229,18 @@ div:nth-child(33) {
     grid-template-rows: repeat(30, 12px);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(31, 20px);
+    grid-template-rows: repeat(30, 20px);
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .grid {
+    grid-template-columns: repeat(31, 24px);
+    grid-template-rows: repeat(30, 24px);
+  }
+}
