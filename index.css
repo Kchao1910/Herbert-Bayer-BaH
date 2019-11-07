@@ -222,3 +222,10 @@ div:nth-child(33) {
   grid-column: 29;
   grid-row: 3/29;
 }
+
+@media screen and (max-width: 414px) {
+  .grid {
+    grid-template-columns: repeat(31, 12px);
+    grid-template-rows: repeat(30, 12px);
+  }
+}
